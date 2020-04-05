@@ -1,0 +1,19 @@
+{
+  "name": "expressjs-authorize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "authorizenet": "^1.0.7",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "validator": "^13.0.0"
+  }
+}

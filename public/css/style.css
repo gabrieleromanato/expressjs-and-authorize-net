@@ -1,0 +1,14 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#site {
+    margin: 3em auto;
+    max-width: 640px;
+    padding: 0 1em;
+}
+
+#status {
+    display: none;
+}

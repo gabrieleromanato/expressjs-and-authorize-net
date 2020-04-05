@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ExpressJS and Authorize.net</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/css/style.css" type="text/css" media="screen">
+</head>
+<body>
+<main id="site">
+
+    <form id="payment-form" action="" method="post">
+
+        <div class="form-group mt-5 mb-5">
+
+            <input type="text" id="cc" name="cc" placeholder="Credit Card Number" class="form-control">
+            
+        </div>
+
+        <div class="form-group mt-5 mb-5">
+
+            <input type="text" id="cvv" name="cvv" placeholder="CVV" class="form-control">
+            
+        </div>
+
+        <div class="form-group mt-5 mb-5">
+
+            <input type="text" id="expire" name="expire" placeholder="Expiration date (mmyy)" class="form-control">
+            
+        </div>
+      
+      
+        <div class="form-group mt-5 mb-5">
+
+            <input type="text" id="amount" name="amount" placeholder="Amount" class="form-control">
+            
+        </div>
+        <p>
+            <input type="submit" class="btn btn-primary" value="Pay">
+        </p>
+        <div class="alert mt-5" id="status"></div>    
+    </form>
+
+</main>
+<script src="/public/js/jquery.min.js"></script>
+<script src="/public/js/index.js"></script>
+</body>
+</html>
